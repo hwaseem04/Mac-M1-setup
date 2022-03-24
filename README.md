@@ -51,9 +51,9 @@ conda install spyder-kernels -y
 ```bash
 conda install -c apple tensorflow-deps
 ```
-``bash
+```bash
 python -m pip install tensorflow-macos
 ```
-``bash
+```bash
 python -m pip install tensorflow-metal
 ```
