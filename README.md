@@ -7,5 +7,9 @@
 
 ## Needed Conda commands
 
+```bash
+conda install -c apple tensorflow-deps
+```
+
 ## Setup for Spyder 
 
