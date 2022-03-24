@@ -25,10 +25,7 @@ conda activate <env-name>
 ```bash
 conda env remove --name <env-name>
 ```
-- Important things to do when you encounter error while changing interpreter in Spyder IDE
-```bash
-conda install -c apple tensorflow-deps
-```
+
 - To see the list of environments
 ```bash
 conda env list
@@ -48,4 +45,15 @@ conda install spyder-kernels -y
   conda install -c conda-forge rtree=0.9.7
   ```
   
+## Tensorflow for MAC M1
 
+- Execute the following commands in terminal
+```bash
+conda install -c apple tensorflow-deps
+```
+``bash
+python -m pip install tensorflow-macos
+```
+``bash
+python -m pip install tensorflow-metal
+```
