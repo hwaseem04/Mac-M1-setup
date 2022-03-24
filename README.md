@@ -9,8 +9,7 @@
 chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
 sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
 ```
-```
-bash
+```bash
 source ~/miniforge3/bin/activate
 ```
 
