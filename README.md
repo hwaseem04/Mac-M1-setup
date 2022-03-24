@@ -4,7 +4,7 @@
 ## Setting up conda package manager
 - Installing miniforge3 -> A conda based package manager for M1
   M1 variant Mac, it's "[Miniforge3-MacOSX-arm64](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)" <- click     for direct download.
-- After downloading miniforge
+- After downloading miniforge, execute the below commands
 ```bash
 chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
 sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
