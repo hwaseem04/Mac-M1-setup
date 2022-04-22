@@ -47,7 +47,7 @@ conda install spyder-kernels -y
   
 ## Tensorflow for MAC M1
 
-- Execute the following commands in terminal
+- Execute the following commands in terminal(python=3.8)
 ```bash
 conda install -c apple tensorflow-deps
 ```
