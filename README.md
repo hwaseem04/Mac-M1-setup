@@ -1,5 +1,5 @@
 # Mac-M1-setup
-
+Personal setup stuff, I often forget the commands :)
 
 ## Setting up conda package manager
 - Installing miniforge3 -> A conda based package manager for M1
