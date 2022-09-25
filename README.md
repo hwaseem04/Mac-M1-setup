@@ -57,3 +57,19 @@ python -m pip install tensorflow-macos
 ```bash
 python -m pip install tensorflow-metal
 ```
+
+## If there exist some issues with M1 conda packages, so you want to work with x86 arch supported packages use the below commands (there are performance compromises)
+```
+CONDA_SUBDIR=osx-64 conda create -n myenv_x86 python=3.9  #myenv_x86 in env name
+conda activate myenv_x86
+conda config --env --set subdir osx-64 # ensures that conda installs x86 versions of Python packages 
+```
+
+or create a shell function in either .bashrc (if you use bash shell) or .zshrc (if you use zsh shell) as below
+```
+create_x86(){
+  CONDA_SUBDIR=osx-64 conda create -n $@     # $@ is used to get all command line arguments, i.e env name and other dependencies
+  conda activate $1                          # $1 is used to get first command line argument, i.e env name
+  conda config --env --set subdir osx-64
+}
+```
