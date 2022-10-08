@@ -1,5 +1,5 @@
 # Mac-M1-setup
-Personal setup stuff, I often forget the commands :)
+Personal setup stuff, I often forget the commands :). Will do a little bit of organizing the stuff little later
 
 ## Setting up conda package manager
 - Installing miniforge3 -> A conda based package manager for M1
@@ -73,3 +73,6 @@ create_x86(){
   conda config --env --set subdir osx-64
 }
 ```
+## git related issues
+
+`git config --global url."https://".insteadOf git://` to replace https protocol from ssh, as ssh is blocked in most of private/ public wifi firewall
