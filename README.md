@@ -1,7 +1,7 @@
 # Mac-M1-setup
 Primitive (personal)Setup, especially for beginners and for those who bought new Macbook with M1 and who want to have the basic requirements for python coding setup.
 
-## Necessary package managers
+### Necessary package managers
 
 1. [Homebrew](https://brew.sh)  General purpose package installers for both terminal usage and for applications. Paste the below command in terminal to install it.
 ```bash
@@ -28,7 +28,7 @@ Now close the terminal, open it again you should see `(base)` in front of your t
 > **The great part of conda environments is that you can uyse `pip` commands as well to install packages within the conda environment without conflicting with system installation of python**
 
 
-## Needed Conda/Pip commands (for my use)
+### Needed Conda/Pip commands (for my use)
 
 - Create and activate environment
 ```bash
@@ -47,10 +47,10 @@ conda env list
 
 - To store the packages along with their version number
 ```python
-# Pip
+## Pip
 pip freeze > requirements.txt 
 #or
-# Conda
+## Conda
 conda list --export > requirements.txt
 ``` 
 
@@ -64,7 +64,7 @@ So always execute the below command to change the behaviour, as a safety measure
 `pip list --format=freeze > requirements.txt`
 
 
-## Applications setup
+### Applications setup
 
 - **Vscode** 
   * `brew install vscode`. Simple isn't it? Thats why homebrew is powerful, we dont need to manually do stuff. Now you can simply type `code .` in terminal (in some folder, say Desktop folder) to open `vscode` with Desktop as current working directory.
@@ -73,7 +73,7 @@ So always execute the below command to change the behaviour, as a safety measure
 
   * Look below to know how to use created conda environment in spyder.
 
-## Conda Environment setup for Spyder 
+### Conda Environment setup for Spyder 
 - Create a environment(say `spyder`) on which you have to work in spyder. type `conda env list`. It shows the location of all the environment in your system, copy the path of the environment `spyder`. 
 - Execute `conda install spyder-kernels -y` so that spyder works properly in the new environment.
 - Now Open spyder
@@ -87,7 +87,7 @@ So always execute the below command to change the behaviour, as a safety measure
   conda install -c conda-forge rtree=0.9.7
   ```
   
-## Tensorflow for MAC M1 GPU Acceleration
+### Tensorflow for MAC M1 GPU Acceleration
 
 - Execute the following commands in terminal **(python=3.8)**. As of now it is compatible with python 3.8 only. Visit [here](https://developer.apple.com/metal/tensorflow-plugin/) for latest updates.
 ```bash
@@ -100,7 +100,7 @@ python -m pip install tensorflow-macos
 python -m pip install tensorflow-metal
 ```
 
-## Python package issues with M1(Dont worry, will be vanished in the near future)
+### Python package issues with M1(Dont worry, will be vanished in the near future)
 
 - As the developers are gradually shifting to support python packages for apple siicon, there are few packages which arent compatible or there exist problem with that pacakge in M1
 
@@ -125,7 +125,7 @@ create_x86(){
   conda config --env --set subdir osx-64
 }
 ```
-## git related issues
+### git related issues
 (never mind, personal stuff)
 
 `git config --global url."https://".insteadOf git://` to replace https protocol from ssh, as ssh is blocked in most of private/ public wifi firewall
