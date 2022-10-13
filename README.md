@@ -1,5 +1,4 @@
-# Mac-M1-setup
-Primitive (personal)Setup, especially for beginners and for those who bought new Macbook with M1 and who want to have the basic requirements for python coding setup.
+# Macbook Apple Silicon setup
 
 ### Necessary package managers
 
