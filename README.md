@@ -1,5 +1,5 @@
 # Macbook Apple Silicon setup
-
+Primitive (personal) Setup, for beginners (Especially for my college juniors) and for those who bought new Macbook with Apple Silicon and who want to have the basic requirements for coding environment.
 ### Necessary package managers
 
 1. [Homebrew](https://brew.sh)  General purpose package installers for both terminal usage and for applications. Paste the below command in terminal to install it.
