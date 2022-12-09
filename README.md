@@ -1,7 +1,5 @@
 # Macbook Apple Silicon setup
 
-Making this as public archive : Continuing this work [here](https://github.com/snuc-cc)
-
 Primitive (personal) Setup, for beginners (Especially for my college juniors) and for those who bought new Macbook with Apple Silicon and who want to have the basic requirements for coding environment.
 ### Necessary package managers
 
